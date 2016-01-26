@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
     <h3> {{ status.dateTime }} :: {{ status.message }} </h3>
-    <div></div>
+    <div></td></tr><TR><TD align=center>
+	<a href="/start"><img src="{{ url_for('static', filename='start.png') }}"  width=200 alt="start"></a>
+    </td><TD align=center>
+	<a href="/stop"><img src="{{ url_for('static', filename='stop.png') }}"  width=200 alt="stop" ></a>
+    </div>
 {% endblock %}
